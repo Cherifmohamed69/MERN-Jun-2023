@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  font-size: large;
+  
+}
+.active {
+  background-color: #caa1d1; /* Example color */
+  color: #6854ce; /* Example text color */
+}
+.tab-header button {
+  margin: 40px;
+  background-color: rgba(252, 161, 226, 0.977);
+  width: 200px  ;
+  height: 80px;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+
