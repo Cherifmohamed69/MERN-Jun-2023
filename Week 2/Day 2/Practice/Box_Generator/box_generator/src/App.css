@@ -1,11 +1,16 @@
 .App {
+  text-align: center;
 }
-.mt-3{
-  background-color: #c8f3ff;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.button{
-  background-color: rgb(98, 209, 226);
-  color: rebeccapurple;
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
@@ -16,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: rgb(252, 0, 0);
+  color: white;
 }
 
 .App-link {
@@ -30,9 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-.todo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

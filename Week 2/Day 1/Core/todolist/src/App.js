@@ -37,7 +37,7 @@ function App() {
     <div className="container mt-3">
       <form onSubmit={handleSubmit}>
         <input type="text" value={newTodo} onChange={(e) => handleChange(e)} />
-        <button>Add todo</button>
+        <button className="button">Add todo</button>
       </form>
       <div className="mt-3">
         {todos.map((todo, i) => (
